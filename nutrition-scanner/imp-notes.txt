@@ -1,0 +1,33 @@
+uvicorn backend.api:app --reload
+uvicorn api:app --reload
+
+
+cd C:\Users\HP\Desktop\major-project\nutrition-scanner
+uvicorn backend.api:app --reload --port 8000
+
+uvicorn api:app --host 0.0.0.0 --port 10000
+
+uvicorn backend.api:app --host 0.0.0.0 --port 10000
+
+
+http://localhost:10000/health
+
+http://127.0.0.1:8000/health
+https://world.openfoodfacts.org/api/v0/product/3017620422003.json
+
+http://127.0.0.1:8000/scan/3017620422003
+
+http://127.0.0.1:8000/scan/737628064502
+
+Amul Cheese 200 g
+Barcode: 8901262020244
+
+
+Lay’s India – India’s Magic Masala flavor
+Barcode: 8901491001137
+
+Nandini Curd
+Barcode: 8906036670205
+
+cd C:\Users\HP\Desktop\major-project\nutrition-scanner\frontend
+streamlit run app.py
